@@ -9,8 +9,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.nafuto.example.MainActivity">
 
-    <TextView
+    <com.nafuto.countdownview.CountDownView
+        android:id="@+id/countDownView"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_height="50dp"
+        android:minHeight="50dp"
+        android:minWidth="50dp" />
 </RelativeLayout>
